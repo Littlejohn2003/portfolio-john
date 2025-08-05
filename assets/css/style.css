@@ -1727,6 +1727,9 @@ body{
    .to-top-btn.active{
       right: 20px;
    }
+   .resume-items .item .info span{
+      position: absolute;
+   }
 }
 /* =========================================
    Media Queries (max-width: 480px)
@@ -1849,6 +1852,9 @@ body{
    }
    .resume-items .item .info p{
       white-space: break-spaces;
+   }
+   .resume-items .item .info span{
+      position: absolute;
    }
    .skill-container{
       row-gap: 35px;
