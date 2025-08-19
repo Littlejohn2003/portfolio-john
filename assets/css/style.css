@@ -849,7 +849,8 @@ body{
    height: 250px;
 }
 .resume-items{
-   position: absolute;
+   /* position: absolute; */
+   position: relative;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -902,6 +903,7 @@ body{
 }
 .resume-items .item .info span{
    position: fixed;
+   /* position: relative; */
    background: var(--primary-color);
    color: var(--dark-color);
    font-size: var(--font-medium);
@@ -911,7 +913,8 @@ body{
 .experience .resume-line{
    background: var(--primary-color);
    width: 2px;
-   height: 250px;
+   height: 380px;
+   /* height: 100%; */
 }
 .education, .experience{
    transform: translateY(35px);
